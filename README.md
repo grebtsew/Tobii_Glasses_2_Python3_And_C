@@ -1,6 +1,12 @@
 # Tobii_Glasses_2_Python3
 Example showing how to get and visualize data_stream, scene camera stream and eye camera stream.
 
+# Start
+Clone or download this repo and run:
+```
+python starter.py
+```
+
 # Motivation
 If you prefer Python3 over Python2 there is no examples how to connect to Tobii glasses 2.
 Here we use requests instead of urllib2.
