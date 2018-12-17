@@ -3,7 +3,10 @@ Example showing how to get and visualize data_stream, scene camera stream and ey
 ![alt text](https://www.tobiipro.com/imagevault/publishedmedia/02lhuuvawcqhy19glrmp/TobiiPro_Glasses_2_Eye_Tracker_side_3_1.jpg)
 
 # Start
-Clone or download this repo and run:
+1. Clone or download this repo.
+2. Connect to your glasses.
+3. Change ip and port in all files, if you are not using default.
+4. Run:
 ```
 python starter.py
 ```
