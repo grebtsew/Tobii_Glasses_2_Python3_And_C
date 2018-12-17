@@ -2,10 +2,6 @@
 import cv2
 import json
 
-
-nifi_url = "http://192.168.0.3:8080/nifi"
-
-
 cap = cv2.VideoCapture("rtsp://192.168.71.50:8554/live/scene")
 
 while True:
