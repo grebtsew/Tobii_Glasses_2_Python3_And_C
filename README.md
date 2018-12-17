@@ -12,8 +12,7 @@ python starter.py
 ```
 
 # Motivation
-If you prefer Python3 over Python2 there are no examples of how to connect to Tobii glasses 2.
-Here we use requests instead of urllib2.
+If you prefer Python3 over Python2 there are no examples published by Tobii Pro of how to connect to Tobii glasses 2. Therefore I made this implementation for python3 where we use requests instead of urllib2.
 
 # Requirements
 These are the required imports for python3:
