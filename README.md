@@ -21,7 +21,7 @@ These are the required imports for python3:
 * cv2
 
 # About
-Tobii Glasses 2 is a nifty device produced by Tobii Pro. The product is full of useful components and intresting functions. Such as eye tracking, gyroscope, pupil size and 3d directions. Data from Tobii Glasses 2 is received using udp sockets. From the incoming json objects data can be received by filtered using these conditions:
+Tobii Glasses 2 is a nifty device produced by Tobii Pro. The product is full of useful components and intresting functions. Such as eye tracking, gyroscope, pupil size and 3d directions. Data from Tobii Glasses 2 is received using udp sockets. From the incoming json objects data can be received and filtered by using these conditions:
 ```
 # Data gathering
 if (str(data).__contains__("ac")): #accelerometer
