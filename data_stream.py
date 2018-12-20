@@ -110,16 +110,16 @@ def data_stream_loop(args):
         #if (str(data).__contains__("gp\"")):  #gaze-position
         #if (str(data).__contains__("gp3")):  #gaze-position-3d
         #if (str(data).__contains__("gy")):  #gyro-scope
-        if(str(data).__contains__("\"pts")):
+        #if(str(data).__contains__("\"pts")):
 
         #    if (str(data).__contains__("left"):  #left eye
         #    if (str(data).__contains__("right"):  #right eye
 
-            '''
-            We also have several sync packages to use to know
-            time-differences between video and data streams
-            '''
-            print (data)
+        '''
+        We also have several sync packages to use to know
+        time-differences between video and data streams
+        '''
+        print (data)
 
     print("Ending datastream Thread")
 
