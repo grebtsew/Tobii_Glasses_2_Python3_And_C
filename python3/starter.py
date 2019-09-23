@@ -11,7 +11,6 @@ See data_stream.py, eye_stream.py and scene_stream.py!
 Change command in this file if pythonpath is different!
 '''
 
-
 def start_data():
     print("Start data_stream")
     os.system("python data_stream.py")
