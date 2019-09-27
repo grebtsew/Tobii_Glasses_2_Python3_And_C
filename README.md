@@ -21,7 +21,7 @@ These are the required imports for python3:
 * cv2
 
 # Requirements C++
-The C++ implementation is developed in Visual Studio 2017.
+The C++ implementation is developed in Visual Studio 2017 on Windows 10.
 These NuGet Packages are used:
 * cpprestsdk.v.141 version v2.10.7 (for rest api calls)
 * opencv.win.native version v320.1.1-vs141 (require build to be in x64 and in release)
