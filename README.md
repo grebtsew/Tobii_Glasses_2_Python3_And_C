@@ -12,11 +12,11 @@ python starter.py
 ```
 
 # Motivation
-If you prefer Python3 over Python2 there are no examples published by Tobii Pro of how to connect to Tobii glasses 2. Therefore I made this implementation for python3 where we use requests instead of urllib2. If you prefer C++ over Python you can check out the C++ implementation.
+If you prefer `Python3` over `Python2` there are no examples published by `Tobii Pro` of how to connect to `Tobii Glasses 2`. Therefore I made this implementation for `Python3` where we use `requests` instead of `urllib2`. If you prefer `C++` over `Python` you can check out the C++ implementation.
 
 
 # Requirements Python3
-These are the required imports for python3:
+These are the required imports for Python3:
 * requests
 * cv2
 
@@ -26,6 +26,7 @@ These NuGet Packages are used:
 * cpprestsdk.v.141 version v2.10.7 (for rest api calls)
 * opencv.win.native version v320.1.1-vs141 (require build to be in x64 and in release)
 * opencv.win.native.redist v320.1.1-vs141
+
 Some security settings had to be changed in visual studio 2017:
 Project -> Project Properties -> C/C++ -> Preprocessors -> Add Preprocessor Definitions :
  `_WINSOCK_DEPRECATED_NO_WARNINGS; _CRT_SECURE_NO_WARNINGS;`
