@@ -9,13 +9,14 @@ while True:
         ret, frame = cap.read()
 
         frame = cv2.resize(frame, (480, 640))
-        cv2.imshow('rtsp stream',frame)
+        cv2.imshow('rtsp eye stream',frame)
         cv2.waitKey(1)
 
         k = cv2.waitKey(5) & 0xFF
         if k == ord('e'):
-            cv2.destroyWindow('rtsp stream')
+            cv2.destroyWindow('rtsp eye stream')
             break
 
     else:
-        print("No Stream opened")
+        pass
+        #print("No Stream opened")

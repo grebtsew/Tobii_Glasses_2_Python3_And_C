@@ -1,3 +1,6 @@
+# settings http://192.168.71.50/api/system/status
+
+
 # Tobii_Glasses_2_Python3
 Example showing how to get and visualize data_stream, scene camera stream and eye camera stream.
 ![alt text](https://www.tobiipro.com/imagevault/publishedmedia/02lhuuvawcqhy19glrmp/TobiiPro_Glasses_2_Eye_Tracker_side_3_1.jpg)

@@ -80,6 +80,8 @@ class Data_Stream():
     def wait_for_status(self,api_action, key, values):
         url = self.base_url + api_action
         running = True
+        max_tries = 20
+        count = 0
         while running:
 
             response = requests.get(url, headers={'Content-Type': 'application/json'})
@@ -87,10 +89,10 @@ class Data_Stream():
 
             print(" Status: " + json_data[key])
 
-            if json_data[key] in values:
+            if json_data[key] in values or count >= max_tries:
                 running = False
             time.sleep(1)
-
+            count += 1
         return json_data[key]
 
 
@@ -290,7 +292,6 @@ class Data_Stream():
 
             # Show config data
             print ("Project: " + self.pr_id, ", Participant: ", self.pa_id, ", Calibration: ", self.ca_id, " ")
-
 
             # Start calibration
             print()
